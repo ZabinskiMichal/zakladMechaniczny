@@ -1,2 +1,4 @@
-package com.example.zakladmechanicznyspringboot.model;public class Kierownik {
+package com.example.zakladmechanicznyspringboot.model;
+
+public class Kierownik extends User{
 }

@@ -1,2 +1,4 @@
-package com.example.zakladmechanicznyspringboot.model;public class Pracownik {
+package com.example.zakladmechanicznyspringboot.model;
+
+public class Pracownik extends User{
 }
