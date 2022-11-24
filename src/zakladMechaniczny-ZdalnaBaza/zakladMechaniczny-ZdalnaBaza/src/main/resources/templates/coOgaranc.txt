@@ -1,0 +1,4 @@
+musimy przegadac jak najlepiej bedzie przechowwyac pracownikow, wlasiccieli ip
+czy robimy dla nich osobne klasy, czy robimy jedna klase i dodajemy do niej typ osoby
+
+--dodac tead me na githubie, napisac o wzorcu, technologiach, bazie
