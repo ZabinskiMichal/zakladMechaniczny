@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="https://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
-    <title>Rejestracja</title>
+    <title>welcome</title>
 </head>
 <body>
+
+
+<h2> Witamy, jako włascicel masz możliwość utworzenia kont korownikom innych placówek oraz kont pracowniczych</h2>
+<br />
+
 
 <h1>Tworzenie nowego konta</h1>
 <form action="rejestracja" method="post">
@@ -20,11 +25,9 @@
     <label for="password">Password :</label> <br/>
     <input type="password" name="password"/> <br/>
 
-    <label for="who">Kim jest osoba której zakładasz konto?</label> <br/>
-
-    <select name="logujeSieJako">
-        <option value="wlasciciel">Wlasciciel</option>
-        <option value="kierownik">Kierownik</option>
+    <label for="type">Kim jest osoba której zakładasz konto?</label> <br/>
+    <select name="type">
+        <option value="Kierownik">Kierownik</option>
         <option value="Pracownik">Pracownik</option>
     </select>
 
@@ -32,7 +35,9 @@
     <br/>
     <button type="submit">Potwierdz</button>
 </form>
-<br/>
+
+<!--<h2 th:text="${firstname}">first name</h2>-->
+<!--<h2 th:text="${lastname}">last name</h2>-->
 
 </body>
 </html>

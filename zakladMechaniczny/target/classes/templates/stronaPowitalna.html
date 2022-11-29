@@ -6,24 +6,33 @@
 </head>
 <body>
 
-<h1>zakład mechaniczy</h1>
-<!--<form action="wyborLoginRegister" method="post">-->
+<h1>Witamy w systemie zarządzania zakładem mechanicznym</h1>
+<br />
 
-
-<!--    <label for="loginRegister">Czy posiadasz juz konto? :</label> <br/>-->
-<!--    <input type="submit" value="Logowanie" />-->
-<!--    <input type="submit" value="rejestracja" />-->
-
-<!--</form>-->
-
-<!--<form action="wyborLoginRegister" method="post">-->
-<!--    <button name="foo" value="upvote">Logowanie</button>-->
-<!--</form>-->
+<h4>zaloguj sie do swojego konta</h4>
 
 <!-- to musi byc nazwa endpointa, ktory mamy w metodzie postPostmapping -->
-<form action="wyborLoginRegister" method="post">
-    <input type="submit" name="upvote" value="Logowanie" />
-    <input type="submit" name="upvote" value="Rejestracja" />
+<form action="zalogowany" method="post">
+
+    <label for="email">Email :</label> <br/>
+    <input type="email" name="email"/> <br/>
+
+    <label for="password">Password :</label> <br/>
+    <input type="password" name="password"/> <br/>
+
+    <label for="type">Kim jestes?</label> <br/>
+    <select name="type">
+        <option value="Wlasciciel">Wlasciciel</option>
+        <option value="Kierownik">Kierownik</option>
+        <option value="Pracownik">Pracownik</option>
+    </select>
+
+    <br/>
+    <br/>
+    <button type="submit">Potwierdz</button>
+
+
+
 </form>
 
 </body>
