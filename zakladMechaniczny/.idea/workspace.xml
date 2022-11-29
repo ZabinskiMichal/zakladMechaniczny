@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b464a13a-5fd3-46da-9e41-b48b8054af7b" name="Changes" comment="Teoretycznie aktualny projekt" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e7a39e9c-23b7-457d-bf0a-4ccd4786a89b" />
+        <option name="url" value="https://github.com/ZabinskiMichal/zakladMechaniczny.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IEMSXX585VDGXYmHjlJBGr3q4t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Mateusz/Desktop/Nauka/Materialy_studia/Semestr_5/Systemy_informatyczne",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mateusz\Desktop\Nauka\Materialy_studia\Semestr_5\Systemy_informatyczne\zakladMechaniczny\src\main\resources\static\images" />
+      <recent name="C:\Users\Mateusz\Desktop\Nauka\Materialy_studia\Semestr_5\Systemy_informatyczne\zakladMechaniczny\src\main\resources\static\css" />
+      <recent name="C:\Users\Mateusz\Desktop\Nauka\Materialy_studia\Semestr_5\Systemy_informatyczne\zakladMechaniczny\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ZakladMechanicznySpringBootApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.zakladmechanicznyspringboot.ZakladMechanicznySpringBootApplication" />
+      <module name="szakladMechanicznySpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zakladmechanicznyspringboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ZakladMechanicznySpringBootApplication" />
+        <item itemvalue="Application.ZakladMechanicznySpringBootApplication" />
+        <item itemvalue="Application.ZakladMechanicznySpringBootApplication" />
+        <item itemvalue="Application.ZakladMechanicznySpringBootApplication" />
+        <item itemvalue="Application.ZakladMechanicznySpringBootApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b464a13a-5fd3-46da-9e41-b48b8054af7b" name="Changes" comment="" />
+      <created>1669742294592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669742294592</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Dodawanie HTML-ów">
+      <created>1669745255760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669745255760</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Spójny (chyba) projekt">
+      <created>1669746483612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669746483612</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Przeorganizowanie struktury plików">
+      <created>1669749291245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669749291245</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Teoretycznie aktualny projekt">
+      <created>1669752512024</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669752512024</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Teoretycznie aktualny projekt">
+      <created>1669752935799</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669752935799</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Teoretycznie aktualny projekt">
+      <created>1669753615147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669753615147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Mateusz" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dodawanie HTML-ów" />
+    <MESSAGE value="Spójny (chyba) projekt" />
+    <MESSAGE value="Przeorganizowanie struktury plików" />
+    <MESSAGE value="Teoretycznie aktualny projekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teoretycznie aktualny projekt" />
+  </component>
+</project>
