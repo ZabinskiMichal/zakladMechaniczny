@@ -2,6 +2,7 @@ package com.example.zakladmechanicznyspringboot.controller;
 
 import com.example.zakladmechanicznyspringboot.model.User;
 import com.example.zakladmechanicznyspringboot.model.UserLogging;
+import com.example.zakladmechanicznyspringboot.model.UserRegistering;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -27,7 +28,6 @@ public class IndexController {
         return "stronaPowitalna";
     }
 
-
     //    action zalogowany jest w htmlu stronaPowitalna
     @PostMapping("/zalogowany")
     public String logowanie(@ModelAttribute UserLogging userLogging, Model model) {
@@ -43,8 +43,9 @@ public class IndexController {
             User zalogowany = new User(userRepository.loginUser(userLogging));
 
             if (Objects.equals(userLogging.getType(), "Wlasciciel")) {
-
+                System.out.println(zalogowany);
                 //tutaj bedziemu tworzyc poszczegolne pbiekty
+//                rejestracja();
                 return "widokHomeWlasciciela";
 
             } else if (Objects.equals(userLogging.getType(), "Kierownik")) {
@@ -58,42 +59,22 @@ public class IndexController {
                 System.out.println(zalogowany);
                 return "widokHomePracownika";
             }
-
         }
-
         return "welcome";
     }
 
 
-//        return "zalogowanyUser";
 
-//    }
+    //włascicel rejestruje usera do bazy
+    //poki co dodajemy do ogólnej tabeli User, trzeba bedzie to zmienic
+    @PostMapping("/rejestracja")
+    public String rejestracja(@ModelAttribute UserRegistering userRegistering, Model model){
+        System.out.println(userRegistering);
+        userRepository.addUserToDb(userRegistering);
+//        userRepository.addUserToDb(user);
+        return "welcome";
 
-
-//    @GetMapping("/")
-//    public String registerPage(){
-//        return "rejestracja";
-//    }
-
-
-    //teraz metoda typu posta ktora pobierze input
-    //sprawdzamy który przycisk user
-//    @PostMapping("/wyborLoginRegister")
-//    public String logowanie(@RequestBody String wybor){
-//        System.out.println(wybor);
-//
-//        if(wybor.equals("upvote=Logowanie")){
-//            System.out.println("uzytkownik ma konto");
-//            return "logowanie";
-//
-//        }else if(wybor.equals("upvote=Rejestracja")){
-//            System.out.println("rejestracja nowego uzytkownika");
-//            return "rejestracja";
-//        }
-//
-//        return null;
-//
-//    }
+    }
 
 
 //    @PostMapping("/rejestracja")
