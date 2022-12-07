@@ -56,6 +56,22 @@ public class UserRepository {
 //        }
     }
 
+
+    public boolean checkIfEmailExist(UserRegistering userRegistering){
+        try {
+            jdbcTemplate.execute("SELECT * FROM " + userRegistering.getType() + " WHERE email = " + "'" +userRegistering.getEmail() + "'");
+
+            //zwracamy true gdy user o podanym mailu istenije
+            return true;
+        }catch (DataAccessException e){
+            e.printStackTrace();
+        }
+
+        //zwracamy false jesli takiego usera nie ma
+        return false;
+
+    }
+
     //wersja funkcji ktora zwraca usera
     //zwracamy Usera
     public User returnKierownik(UserRegistering userRegistering, Zaklad zaklad){
