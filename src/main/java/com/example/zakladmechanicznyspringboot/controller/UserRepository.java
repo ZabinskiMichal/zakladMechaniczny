@@ -72,6 +72,9 @@ public class UserRepository {
 
     }
 
+
+
+
     //wersja funkcji ktora zwraca usera
     //zwracamy Usera
     public User returnKierownik(UserRegistering userRegistering, Zaklad zaklad){

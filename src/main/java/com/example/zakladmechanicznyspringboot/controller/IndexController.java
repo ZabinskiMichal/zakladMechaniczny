@@ -83,13 +83,26 @@ public class IndexController {
         return "welcome";
     }
 
+
     @PostMapping("/rejestracja")
-    public String rejestracja(@ModelAttribute UserRegistering userRegistering, Model model, Zaklad zaklad) {
+    public String rejestracja(@ModelAttribute UserRegistering userRegistering, Model model){
         System.out.println(userRegistering);
-        userRepository.addUserToDb(userRegistering, zaklad);
-        model.addAttribute("firstname", userRegistering.getFirstName());
-        model.addAttribute("lastname", userRegistering.getLastName());
-        return "welcome";
+        if(userRepository.checkIfEmailExist(userRegistering)) {
+            System.out.println("user o podanym mailu isteje juz w tej tabeli, nie mozna dodac do bazy");
+        }else{
+            if (userRegistering.getType() == null){
+                System.out.println("Rejestrujemy pracownika ktory nie ma typu, ustawimy domyslny typ czyli pracownik");
+                userRegistering.setType("Pracownik");
+            }
+            userRepository.addUserToDb(userRegistering);
+//        userRepository.addUserToDb(user);
+            return "welcome";
+        }
+
+        return "niepowodzenie";
+
     }
+
+
 
 }
