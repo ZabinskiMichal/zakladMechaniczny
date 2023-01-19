@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="GIT-PROJEKT" />
+        <module name="[zakład mechaniczny]" />
         <module name="szakladMechanicznySpringBoot" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="GIT-PROJEKT" options="-parameters" />
+      <module name="[zakład mechaniczny]" options="-parameters" />
       <module name="szakladMechanicznySpringBoot" options="-parameters" />
     </option>
   </component>

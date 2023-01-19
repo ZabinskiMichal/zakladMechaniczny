@@ -1,9 +1,6 @@
 package com.example.zakladmechanicznyspringboot.controller;
 
-import com.example.zakladmechanicznyspringboot.model.User;
-import com.example.zakladmechanicznyspringboot.model.UserLogging;
-import com.example.zakladmechanicznyspringboot.model.UserRegistering;
-import com.example.zakladmechanicznyspringboot.model.Zaklad;
+import com.example.zakladmechanicznyspringboot.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Objects;
 
 @Controller
+
 public class IndexController {
 
     //wstrzykujemy zależność userRepository
@@ -82,16 +80,18 @@ public class IndexController {
         return "welcome";
     }
 
-    @GetMapping("/id")
-//    public Kierownik getById(@PathVariable("id") int id) {
-//
-//        return UserRepository.getByIdMan(id);
-//    }
-    @DeleteMapping("/id")
-    public void deleteMan(@PathVariable("id") int id){
 
+    @PostMapping("/deleteMan")
+    public String deleteMan(int id) {
+        userRepository.deleteMan(id);
+        return "success";
     }
-
+    @PostMapping("/id")
+    public String deleteEmp(int id) {
+            userRepository.deleteEmp(id);
+            return "success";
+            // }
+        }
 
 
 }
