@@ -1,0 +1,38 @@
+Dokumentowanie projektu
+Dokument analizy wymagań
+Projekt technoczny systemu?
+Intrukcja instalacji użycia
+DELIVERY PLAN - można wpisać template i będą przykłady. 
+Najważniejsze są finanse - w pierwszym planujemy wydać soft z taki i takimi funkcjonalnościami, w drugim z takimi...
+Dzisiaj rozbić na taski
+Do delivery plan 2 osoby, reszta po jednej
+Można zobaczyć w necie i podzielić się rozdziałami delivery planu (?)
+
+Dokument analizy wymagań to de facto skopiowanie kontentu z Jiry,o ile jest lista wymagań funkcjonalnych i ich opis, przypadki użycia, scenariusze testów...
+
+Intrukcja instalacji użycia: dla działu IT klienta, powinni wiedzieć jak to zainstalować
+Np serwer taki i taki. Nie uruchamiamy tego serwera, nie płacimy, bieda w kraju
+
+Instrukcja instalacji i użycia, jedna dla użytkownika, druga dla tego it
+Użytkownik się loguje i leci
+Ten IT konfiguracja i inne chuje muje
+Najważniejszy jest delivery plan, dokument analizy
+Instrukcja skąd wziąć hasło 
+Dopisać brakujące przypadki
+1 albo 2 diagramy użycia (?)
+
+Projekt techniczny - jak, zrealizowaliśmy wymagania, architektura systemu, aktualny schemat bazy danych
+Diagram
+Delivery plan
+Ile kosztował projekt? Wypisać zrealizowane zadania, przyporzadkwoac do epikow (z jiry) I przyporządkować do kategorii zadań. Potem dodajemy czas (z Jiry) I pozostaje temat kosztów. Obszar uświadamiający, że nie można pracować jak my: bez lokowania? czasu
+Spróbujmy zamienić nasze
+Największy challenge to kosztyyyy
+Wiemy ile spaliliśmy kalorii, każdy to wyestymujemy, porówna ze score points ami, czy się nadają czy nie
+Można przyjąć stawkę firmową x zł/h
+Za tydzień obrona projektu, trzeba wysłać to wcześniej
+Rozbite na taski w Jirze i oznaczenie baby
+Na koniec zaprezentować projekt, przescrollować co i jak
+Podaj przykład definition of done
+Code review completed +
+Typania typu definition of ready, przyporządkuj Diagram który widzisz do opcji diagram strony, diagram nwm
+Różnica między story points - jednostki bezwymiarowe służące do porównywania testów a MD - wartość dosłowna, godzinową (chyba), MD się nie sprawdzają, więc korzystamy z story pointa
