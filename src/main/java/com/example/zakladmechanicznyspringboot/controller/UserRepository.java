@@ -1,9 +1,6 @@
 package com.example.zakladmechanicznyspringboot.controller;
 
-import com.example.zakladmechanicznyspringboot.model.User;
-import com.example.zakladmechanicznyspringboot.model.UserLogging;
-import com.example.zakladmechanicznyspringboot.model.UserRegistering;
-import com.example.zakladmechanicznyspringboot.model.Zaklad;
+import com.example.zakladmechanicznyspringboot.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -112,7 +109,7 @@ public class UserRepository {
         //zwracamy false jesli takiego usera nie ma
         return false;
     }
-//    public static Kierownik getByIdMan(int id) {
+//    public Kierownik getByIdMan(int id) {
 //        return jdbcTemplate.queryForObject("SELECT id, name, lastname FROM Kierownik WHERE " +
 //                "id = ?", BeanPropertyRowMapper.newInstance(Kierownik.class), id);
 //
@@ -158,4 +155,46 @@ public class UserRepository {
 //    }
 
 //    }
+
+    public Kierownik getByIdMan(int id) {
+
+        return jdbcTemplate.queryForObject("SELECT id, name, lastname FROM Kierownik WHERE " +
+                "id = ?", BeanPropertyRowMapper.newInstance(Kierownik.class), id);
+    }
+/*
+    public boolean deleteMan(int id){
+        Kierownik idMan = jdbcTemplate.queryForObject("SELECT id, name, lastname FROM Kierownik WHERE " +
+                "id = ?", BeanPropertyRowMapper.newInstance(Kierownik.class), id);
+        Kierownik user = idMan;
+        if (user != null){
+            jdbcTemplate.update("DELETE FROM Kierownik WHERE id=?", id);
+            return true;
+
+        }else {
+            System.out.println("There is no such Manager");
+            return false;
+        }
+    }
+*/
+public boolean deleteMan(int id) {
+
+    //System.out.println("Employee deleted successfully");
+    jdbcTemplate.update("DELETE FROM Kierownik WHERE id=?", id);
+    return true;
+}
+
+    public Pracownik getByIdEmp(int id) {
+        return jdbcTemplate.queryForObject("SELECT id, name, lastname FROM Pracownik WHERE " +
+                "id = ?", BeanPropertyRowMapper.newInstance(Pracownik.class), id);
+    }
+
+    public boolean deleteEmp(int id){
+
+            //System.out.println("Employee deleted successfully");
+            jdbcTemplate.update("DELETE FROM Pracownik WHERE id=?", id);
+            return true;
+
+
+
+    }
 }
